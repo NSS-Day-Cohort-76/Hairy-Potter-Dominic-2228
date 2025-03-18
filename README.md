@@ -120,12 +120,31 @@ In the `main.js` module, invoke the `PotteryList` component function. Take its r
 > 🧨 Before you click the "Assessment Complete" button on the Learning Platform, add your answers below for each question and make a commit. It is your option to request a face-to-face meeting with a coach for a vocabulary review.
 
 1. Explain how you got the HTML, with the correct data, displayed in the browser?
-   > Your answer here
+
+
+   >I created a variable named potterInUse and assigned the deep copy of the array that contains only the objects that meet the condition .cracked === false, to that variable name. I then created another variable potterHTMLlist and assigned the return value of the function that generates the HTML string with the iterated array properties to the potterHTMLlist. After that ive created another variable named potterDom that selects the article id, i will then take what i selected from the DOM, potterDom, and assign potterHTMLlist to potterDom.innerHTML. 
+
+
+
 2. In the **PotteryList** module, when you iterate your pottery, you need to show the evidence of what the **weight** property's value is for the 2nd piece of pottery. Use [Loom](https://www.loom.com/) to record your browser window with the developer tools open and show those values.
-   > Paste your video's public URL here
+
+
+   > [Paste your video's public URL here](https://www.loom.com/share/52c3e223d0b2429aaf574bb2f7967be3?sid=9397dff8-d092-46ca-9b35-51ddafb36827)
+
+
 3. The **PotteryWheel** module has a single function named `makePottery`. Why doesn't that module have all of the other code in it?
-   > Your answer here
+
+
+   > Its the source for all objects being created that are used in each other function that then modifies those objects. 
+
+
 4. The pottery shop has learned that there is a set of customers that are willing to buy cracked pottery at a discounted price of $2.50. That means that the cracked pottery should now be displayed in the catalog. Explain the changes that this new business strategy would cause to your algorithm.
-   > Your answer here
+
+
+   > i would have to create a if-else statement that checks if the cracked properties === true, if so, it would assign a .price value of 2.50, and everything would be pushed to the objToBeSold array.
+
+
 5. In the **Kiln** module, you have a `firePottery()` function. You need to demonstrate how to use the debugger to verify the values of the parameters for that function when your code runs. Use [Loom](https://www.loom.com/) to record your browser window with the developer tools open and show those values.
-   > Paste your video's public URL here
+
+
+   >[ Paste your video's public URL here](https://www.loom.com/share/ac892015b19e428e99fe4e7b4d777ea6?sid=5b80b4cc-5aa3-46bb-b212-4d684f1ba91f)
